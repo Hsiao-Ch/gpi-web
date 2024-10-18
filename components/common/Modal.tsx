@@ -1,9 +1,9 @@
 import React from "react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import styles from "@/styles/components/common/modal.module.scss";
 
 type ModalProps = {
-  imageSrc: any;
+  imageSrc: string | StaticImageData;
   altText: string;
   isOpen: boolean;
   onClose: () => void;

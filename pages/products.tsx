@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { useState } from "react";
 import { FaLink, FaSearch } from "react-icons/fa";
 
@@ -35,8 +35,9 @@ export default function Products() {
     }
   };
 
-  const openModal = (imageSrc: any, altText: string) => {
-    setModalImageSrc(imageSrc);
+  const openModal = (imageSrc: string | StaticImageData, altText: string) => {
+    const imageSrcString = typeof imageSrc === "string" ? imageSrc : imageSrc.src;
+    setModalImageSrc(imageSrcString);
     setModalAltText(altText);
     setIsModalOpen(true);
   };
