@@ -6,7 +6,7 @@ import styles from "@/styles/pages/alliances.module.scss";
 
 import pic from "@/public/award/pic.jpg";
 import lakos_logo from "@/public/alliances/lakos_logo.png";
-import spirotherm_logo from "@/public/alliances/Spirotherm_Logo.png";
+import spirotherm_logo from "@/public/alliances/spirotherm_logo.png";
 import spx_logo from "@/public/alliances/spx_logo.png";
 import walraven_logo from "@/public/alliances/walraven_logo.svg";
 
