@@ -1,0 +1,99 @@
+@import "@/styles/base/variables";
+@import "@/styles/base/mixin";
+@import "@/styles/base/extends";
+
+.container {
+  padding: 3rem;
+
+  @include Small {
+    padding: 3rem 1rem;
+  }
+
+  .titleWrap {
+    @extend %home-title;
+  }
+
+  .wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+
+    @include Medium {
+      gap: 1rem;
+    }
+
+    @include Small {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .items {
+      width: 100%;
+
+      .image {
+        width: 100%;
+        height: 230px; // Maintain a fixed height
+        overflow: hidden;
+        position: relative;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          scale: 1.2;
+          transition: transform 0.3s ease;
+        }
+
+        // Hover effect to scale image
+        &:hover img {
+          transform: scale(
+            0.9
+          ); // Adjust the scale value for desired zoom level
+        }
+      }
+
+      .subTitle {
+        padding: 1rem 0;
+        font-size: 18px;
+
+        @include Small {
+          padding: .5rem 0;
+        }
+      }
+
+      .content {
+        color: #888;
+        line-height: 22px;
+        margin-bottom: 1rem;
+
+        @include Small {
+          margin-bottom: .5rem;
+        }
+      }
+
+      .readMore {
+        position: relative;
+        cursor: pointer;
+        padding-bottom: 5px;
+        width: fit-content;
+
+        // Pseudo-element for underline
+        &::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 0;
+          height: 3px; // Adjust thickness of the underline
+          background-color: $main-green; // Use the main green color
+          transition: width 0.3s ease; // Control animation speed and easing
+        }
+
+        // Hover effect to extend underline
+        &:hover::after {
+          width: 100%; // Extend underline from left to right
+        }
+      }
+    }
+  }
+}
