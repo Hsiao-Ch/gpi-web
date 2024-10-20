@@ -17,7 +17,6 @@ export default function ContactInfo() {
     formState: { errors },
   } = useForm<FormInputs>();
   const [loading, setLoading] = useState<boolean>(false);
-  const [messase, setMessage] = useState<string>("");
 
   const SERVICE_ID = "service_xci1lye";
   const TEMPLATE_ID = "template_4dhsmx1";
@@ -40,8 +39,8 @@ export default function ContactInfo() {
           },
           PUBLICK_ID
         )
-        .then(() => setMessage("傳送成功"))
-        .catch(() => setMessage("傳送失敗，請聯絡我們"));
+        .then(() => alert("傳送成功"))
+        .catch(() => alert("傳送失敗，請聯絡我們"));
       setLoading(false);
     }, 1000);
   };
@@ -57,7 +56,8 @@ export default function ContactInfo() {
             }`}
             {...register("name", { required: "請輸入您的名字" })}
           />
-        </p><p className={styles.inputItem}>
+        </p>
+        <p className={styles.inputItem}>
           <input
             type="tel"
             placeholder={`${
@@ -84,7 +84,6 @@ export default function ContactInfo() {
           />
         </p>
         <p className={styles.submitWrap}>
-          {messase}
           <button className={styles.submitButton}>
             {loading ? "傳送中..." : "傳送電子郵件"}
           </button>

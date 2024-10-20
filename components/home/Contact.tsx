@@ -9,6 +9,7 @@ type FormInputs = {
   name: string;
   email: string;
   message: string;
+  tel: string;
 };
 
 export default function Contact() {
@@ -18,7 +19,6 @@ export default function Contact() {
     formState: { errors },
   } = useForm<FormInputs>();
   const [loading, setLoading] = useState<boolean>(false);
-  const [messase, setMessage] = useState<string>("");
 
   const SERVICE_ID = "service_xci1lye";
   const TEMPLATE_ID = "template_4dhsmx1";
@@ -37,11 +37,12 @@ export default function Contact() {
             from_email: data.email,
             to_email: "11336006@ntub.edu.tw",
             message: data.message,
+            tel: data.tel
           },
           PUBLICK_ID
         )
-        .then(() => setMessage("傳送成功"))
-        .catch(() => setMessage("傳送失敗，請聯絡我們"));
+        .then(() => alert("傳送成功"))
+        .catch(() => alert("傳送失敗，請聯絡我們"));
       setLoading(false);
     }, 1000);
   };
@@ -70,6 +71,15 @@ export default function Contact() {
           </p>
           <p className={styles.inputItem}>
             <input
+              type="tel"
+              placeholder={`${
+                errors.tel ? "*" + errors.tel.message : "您的連絡電話"
+              }`}
+              {...register("tel", { required: "請輸入您的連絡電話" })}
+            />
+          </p>
+          <p className={styles.inputItem}>
+            <input
               type="email"
               placeholder={`${
                 errors.email ? "*" + errors.email.message : "您的電子郵件"
@@ -86,7 +96,6 @@ export default function Contact() {
             />
           </p>
           <p className={styles.submitWrap}>
-            {messase}
             <button className={styles.submitButton}>
               {loading ? "傳送中..." : "傳送電子郵件"}
             </button>
