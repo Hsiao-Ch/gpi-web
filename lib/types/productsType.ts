@@ -1,8 +1,10 @@
 import { StaticImageData } from "next/image";
 
 export interface ProductsType {
-    lokes: List[];
-    spirptech: List[]
+    spx: List[];
+    spirptech: List[];
+    lakos: List[];
+    walraven: List[];
 }
 
 export type List = {

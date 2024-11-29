@@ -13,7 +13,7 @@ import sp8 from "@/public/products/截圖 2024-07-25 下午5.08.09.png";
 
 export const productsData: ProductsType[] = [
   {
-    lokes: [
+    spx: [
       {
         image: TCX_TCI,
         alt: "TCX-TCI TowerClean",
@@ -70,6 +70,40 @@ export const productsData: ProductsType[] = [
         image: sp8,
         alt: "ILB_ILS",
         link: "",
+      },
+    ],
+    lakos: [
+      {
+        image: TCX_TCI,
+        alt: "TCX-TCI TowerClean",
+        link: "https://www.lakos.com/product/tcx-tci-towerclean/",
+      },
+      {
+        image: TBX_TBI,
+        alt: "TBX-TBI SideStreamClean",
+        link: "https://www.lakos.com/product/tbx-tbi-sidestreamclean/",
+      },
+      {
+        image: ILB_ILS,
+        alt: "ILB-ILS Separators",
+        link: "https://www.lakos.com/product/lakos-ilb-ils-separators/",
+      },
+    ],
+    walraven: [
+      {
+        image: TCX_TCI,
+        alt: "TCX-TCI TowerClean",
+        link: "https://www.lakos.com/product/tcx-tci-towerclean/",
+      },
+      {
+        image: TBX_TBI,
+        alt: "TBX-TBI SideStreamClean",
+        link: "https://www.lakos.com/product/tbx-tbi-sidestreamclean/",
+      },
+      {
+        image: ILB_ILS,
+        alt: "ILB-ILS Separators",
+        link: "https://www.lakos.com/product/lakos-ilb-ils-separators/",
       },
     ],
   },

@@ -30,6 +30,17 @@
       border-bottom: 1px solid #eaeaea;
     }
 
+    .imageWrap {
+      width: 90%;
+      border: 1px solid #ccc;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
     .wrap {
       margin-top: 2rem;
     }

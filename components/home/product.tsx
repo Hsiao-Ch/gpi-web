@@ -10,7 +10,7 @@ import spirotherm_logo from "@/public/alliances/spirotherm_logo.png";
 import spx_logo from "@/public/alliances/spx_logo.png";
 import walraven_logo from "@/public/alliances/walraven_logo.svg";
 
-export default function About() {
+export default function Product() {
   return (
     <section className={styles.container}>
       <div className={styles.titleWrap}>

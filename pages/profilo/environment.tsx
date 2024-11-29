@@ -21,28 +21,29 @@ export default function Environment() {
               <div>
                 <p className={styles.subTitle}>願景</p>
                 <ul>
-                  <li>資源永續(Green)</li>
-                  <li>效益 (Performance)</li>
-                  <li>創新 (innovation)</li>
+                  <li>
+                    <p className={styles.light}>
+                      <span>G</span>資源永續(Green)
+                    </p>
+                  </li>
+                  <li>
+                    <p className={styles.light}>
+                      <span>P</span>效益 (Performance)(Green)
+                    </p>
+                  </li>
+                  <li>
+                    <p className={styles.light}>
+                      <span>i</span>創新 (innovation)
+                    </p>
+                  </li>
                 </ul>
-                <p className={styles.subTitle}>核心價值</p>
-                <ul>
-                  <li>誠正有信</li>
-                  <li>擔當責任</li>
-                </ul>
-              </div>
-              <div className={styles.item}>
+
                 <p className={styles.subTitle}>發展策略</p>
                 <ul>
                   <li>
                     <p>
                       <span>治理面</span>分散的自治組織
                     </p>
-                    <ul>
-                      <li>鴻鵠之志(Great)</li>
-                      <li>參與(Partner)</li>
-                      <li>理想 (idea)</li>
-                    </ul>
                   </li>
                   <li>
                     <p>
@@ -70,14 +71,19 @@ export default function Environment() {
                   </li>
                 </ul>
               </div>
+              <div className={styles.item}>
+                <p className={styles.subTitle}>核心價值</p>
+                <ul>
+                  <li>誠正有信</li>
+                  <li>擔當責任</li>
+                </ul>
+              </div>
             </div>
           </div>
           <div className={styles.wrap}>
             <h2>品質政策</h2>
             <ul className={styles.climateWrap}>
-              <li>預防災害，遵守法規。</li>
-              <li>創意生活，喜悅生命。</li>
-              <li>持續改善，資源永續。</li>
+              <li>品質第一，顧客至上。</li>
             </ul>
           </div>
           <div className={styles.wrap}>

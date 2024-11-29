@@ -54,10 +54,39 @@
         flex-direction: column;
         align-items: center;
 
+        &:first-child {
+          .icon {
+            background-color: #df817a;
+
+            &:hover {
+              background-color: #c1121f;
+            }
+          }
+        }
+
+        &:nth-child(2) {
+          .icon {
+            background-color: #669bbc;
+
+            &:hover {
+              background-color: #38608b;
+            }
+          }
+        }
+
+        &:nth-child(3) {
+          .icon {
+            background-color: #a8c686;
+
+            &:hover {
+              background-color: #588157;
+            }
+          }
+        }
+
         .icon {
           width: 150px;
           height: 150px;
-          background-color: #474747;
           border-radius: 50%;
           margin-bottom: 1rem;
           display: flex;
@@ -65,7 +94,6 @@
           justify-content: center;
 
           &:hover {
-            background-color: $main-green;
             transition: 0.5s background-color ease;
           }
 

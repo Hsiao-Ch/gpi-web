@@ -23,7 +23,7 @@ export default function Modal({
         <span className={styles.closeButton} onClick={onClose}>
           &times;
         </span>
-        <Image src={imageSrc} alt={altText} />
+        <Image src={imageSrc} alt={altText} width={500} height={500} />
       </div>
     </div>
   );
