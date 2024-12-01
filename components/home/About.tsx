@@ -1,9 +1,5 @@
 import Image from "next/image";
-import pic_4 from "@/public/about/pic-4.jpg";
-import pic_2 from "@/public/about/pic-2.jpg";
-import pic_3 from "@/public/about/pic-3.jpg";
 import styles from "@/styles/components/home/about.module.scss";
-import Link from "next/link";
 
 import lakos_logo from "@/public/alliances/lakos_logo.png";
 import spirotherm_logo from "@/public/alliances/spirotherm_logo.png";

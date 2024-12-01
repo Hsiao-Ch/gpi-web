@@ -1,0 +1,64 @@
+@import "@/styles/base/variables";
+@import "@/styles/base/mixin";
+@import "@/styles/base/extends";
+
+.container {
+  padding: 3rem;
+
+  @include Small {
+    padding: 3rem 1rem;
+  }
+
+  .titleWrap {
+    @extend %home-title;
+  }
+
+  .wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+
+    @include Medium {
+      gap: 1rem;
+    }
+
+    @include Small {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .itemImage {
+      height: 200px;
+      overflow: hidden;
+      position: relative;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      display: flex;
+      align-items: center;
+
+      a {
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        p {
+          padding-left: 1rem;
+        }
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+      }
+
+      // Hover effect to scale image
+      &:hover img {
+        transform: scale(
+          0.9
+        ); // Adjust the scale value for desired zoom level
+      }
+    }
+  }
+}

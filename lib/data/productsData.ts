@@ -1,110 +1,92 @@
 import { ProductsType } from "../types/productsType";
-import TCX_TCI from "@/public/products/TCX_TCI.jpg";
-import TBX_TBI from "@/public/products/TBX_TBI.png";
-import ILB_ILS from "@/public/products/ILB_ILS.png";
-import sp1 from "@/public/products/截圖 2024-07-25 下午5.03.45.png";
-import sp2 from "@/public/products/截圖 2024-07-25 下午5.04.28.png";
-import sp3 from "@/public/products/截圖 2024-07-25 下午5.04.53.png";
-import sp4 from "@/public/products/截圖 2024-07-25 下午5.05.24.png";
-import sp5 from "@/public/products/截圖 2024-07-25 下午5.05.56.png";
-import sp6 from "@/public/products/截圖 2024-07-25 下午5.06.22.png";
-import sp7 from "@/public/products/截圖 2024-07-25 下午5.07.16.png";
-import sp8 from "@/public/products/截圖 2024-07-25 下午5.08.09.png";
+import TCX_TCI from "@/public/products/spx/TCX_TCI.jpg";
+import TBX_TBI from "@/public/products/spx/TBX_TBI.png";
+import ILB_ILS from "@/public/products/spx/ILB_ILS.png";
+import F400 from "@/public/products/spx/F400 工業型冷卻水塔.jpg";
+import MCW from "@/public/products/spx/MCW 強吹式逆流模組型冷卻水塔.jpg";
+import MHF from "@/public/products/spx/MHF 密閉式冷卻水塔.jpg";
+import MD from "@/public/products/spx/MD 逆流模組型冷卻水塔.jpg";
+import NC from "@/public/products/spx/NC 直交流模組型冷卻水塔.jpg";
+import spirotop_brass from "@/public/products/spirotech/spirotop_brass.jpg";
+import SpiroVent_Steel_F from "@/public/products/spirotech/SpiroVent -Steel -F(PN16).jpg";
+import SpiroVent_Superior from "@/public/products/spirotech/SpiroVent Superior S600 - 2,5-6 bar.jpg";
+import SpiroExpand_EVSG from "@/public/products/spirotech/SpiroExpand EVSG Pressure expansion vessel with replaceable membrane.jpg";
+import SpiroExpand_MultiControl from "@/public/products/spirotech/SpiroExpand MultiControl Kompakt DUO Twin.jpg";
 
 export const productsData: ProductsType[] = [
   {
     spx: [
       {
         image: TCX_TCI,
-        alt: "TCX-TCI TowerClean",
+        alt: "TCX-TCI 塔清潔",
         link: "https://www.lakos.com/product/tcx-tci-towerclean/",
       },
       {
         image: TBX_TBI,
-        alt: "TBX-TBI SideStreamClean",
+        alt: "TBX-TBI 分離器",
         link: "https://www.lakos.com/product/tbx-tbi-sidestreamclean/",
       },
       {
         image: ILB_ILS,
-        alt: "ILB-ILS Separators",
+        alt: "ILB-ILS 分離器",
         link: "https://www.lakos.com/product/lakos-ilb-ils-separators/",
+      },
+      {
+        image: F400,
+        alt: "F400 工業型冷卻水塔",
+        link: "https://spxcooling.com/video/marley-modular-f400-cooling-tower/",
+      },
+      {
+        image: MCW,
+        alt: "MCW 強吹式逆流模組型冷卻水塔",
+        link: "https://www.lakos.com/product/lakos-ilb-ils-separators/",
+      },
+      {
+        image: MHF,
+        alt: "MHF 密閉式冷卻水塔",
+        link: "https://spxcooling.com/video/marley-modular-f400-cooling-tower/",
+      },
+      {
+        image: MD,
+        alt: "MD 逆流模組型冷卻水塔",
+        link: "https://www.lakos.com/product/lakos-ilb-ils-separators/",
+      },
+      {
+        image: NC,
+        alt: "NC 直交流模組型冷卻水塔",
+        link: "https://spxcooling.com/video/marley-modular-f400-cooling-tower/",
       },
     ],
     spirptech: [
       {
-        image: sp1,
-        alt: "ILB_ILS",
-        link: "",
+        image: spirotop_brass,
+        alt: "spirotop_brass",
+        link: "https://www.spirotech.com/products/spirotop/spirotop--brass-105",
       },
       {
-        image: sp2,
-        alt: "ILB_ILS",
-        link: "",
+        image: SpiroVent_Steel_F,
+        alt: "SpiroVent -Steel -F(PN16)",
+        link: "https://www.spirotech.com/products/spirovent/spirovent--steel--fpn16-115",
       },
       {
-        image: sp3,
-        alt: "ILB_ILS",
-        link: "",
+        image: SpiroVent_Superior,
+        alt: "SpiroVent Superior S600 - 2,5-6 bar",
+        link: "https://www.spirotech.com/products/spirovent-superior/spirovent-superior-s600---2,5-6-bar-164",
       },
       {
-        image: sp4,
-        alt: "ILB_ILS",
-        link: "",
+        image: SpiroExpand_EVSG,
+        alt: "SpiroExpand EVSG Pressure expansion vessel with replaceable membrane",
+        link: "https://www.spirotech.com/products/spiroexpand-expansion-vessels/spiroexpand-evsg-pressure-expansion-vessel-with-replaceable-membrane-216",
       },
       {
-        image: sp5,
-        alt: "ILB_ILS",
-        link: "",
-      },
-      {
-        image: sp6,
-        alt: "ILB_ILS",
-        link: "",
-      },
-      {
-        image: sp7,
-        alt: "ILB_ILS",
-        link: "",
-      },
-      {
-        image: sp8,
-        alt: "ILB_ILS",
-        link: "",
+        image: SpiroExpand_MultiControl,
+        alt: "SpiroExpand MultiControl Kompakt DUO Twin",
+        link: "https://www.spirotech.com/products/spiroexpand-pressurization/spiroexpand-multicontrol-kompakt-duo-twin-193",
       },
     ],
     lakos: [
-      {
-        image: TCX_TCI,
-        alt: "TCX-TCI TowerClean",
-        link: "https://www.lakos.com/product/tcx-tci-towerclean/",
-      },
-      {
-        image: TBX_TBI,
-        alt: "TBX-TBI SideStreamClean",
-        link: "https://www.lakos.com/product/tbx-tbi-sidestreamclean/",
-      },
-      {
-        image: ILB_ILS,
-        alt: "ILB-ILS Separators",
-        link: "https://www.lakos.com/product/lakos-ilb-ils-separators/",
-      },
     ],
     walraven: [
-      {
-        image: TCX_TCI,
-        alt: "TCX-TCI TowerClean",
-        link: "https://www.lakos.com/product/tcx-tci-towerclean/",
-      },
-      {
-        image: TBX_TBI,
-        alt: "TBX-TBI SideStreamClean",
-        link: "https://www.lakos.com/product/tbx-tbi-sidestreamclean/",
-      },
-      {
-        image: ILB_ILS,
-        alt: "ILB-ILS Separators",
-        link: "https://www.lakos.com/product/lakos-ilb-ils-separators/",
-      },
     ],
   },
 ];

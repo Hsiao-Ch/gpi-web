@@ -126,7 +126,7 @@ export default function Products() {
                     <div
                       className={styles.logoWrap}
                       onClick={() =>
-                        (window.location.href = "https://spxcooling.com/")
+                        (window.location.href = "https://spxcooling.com/", "_blank")
                       }
                     >
                       <Image src={spx_logo} alt="spx_logo" />
