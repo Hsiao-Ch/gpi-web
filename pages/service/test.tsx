@@ -4,7 +4,6 @@ import Layout from "@/components/layout/Layout";
 import SidebarService from "@/components/layout/SidebarService";
 import styles from "@/styles/pages/service/test.module.scss";
 
-import pic from "@/public/award/pic.jpg";
 import WEB from "@/public/service/WEB 水塔公路運輸.jpg";
 
 export default function Test() {

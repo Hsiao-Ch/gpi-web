@@ -4,7 +4,6 @@ import Layout from "@/components/layout/Layout";
 import SidebarService from "@/components/layout/SidebarService";
 import styles from "@/styles/pages/service/maintent.module.scss";
 
-import pic from "@/public/award/pic.jpg";
 import maintent_1 from "@/public/service/maintent-1.webp";
 import maintent_2 from "@/public/service/maintent-2.jpg";
 import { IoIosArrowRoundForward } from "react-icons/io";

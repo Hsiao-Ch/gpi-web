@@ -1,4 +1,4 @@
-import { use, useState } from "react";
+import { useState } from "react";
 import styles from "@/styles/components/layout/navbar.module.scss";
 import Logo from "@/public/GPi logo.jpg";
 import Image from "next/image";
