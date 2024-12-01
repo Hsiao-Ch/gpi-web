@@ -17,9 +17,6 @@ export default function Tech() {
       <div className={styles.container}>
         <SidebarService />
         <section className={styles.section}>
-          <div className={styles.imgWrap}>
-            <Image src={pic} alt={""} />
-          </div>
           <h1 className={styles.title}>技術諮詢</h1>
           <div className={styles.content}>
             <div className={styles.wrap}>

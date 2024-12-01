@@ -5,7 +5,7 @@ import Image from "next/image";
 import styles from "@/styles/pages/about.module.scss";
 import Layout from "@/components/layout/Layout";
 
-import pic from "@/public/about/pic-5.jpg";
+import pic from "@/public/activity/IMG_7811.jpeg";
 
 export default function About() {
   return (

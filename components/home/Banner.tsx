@@ -4,6 +4,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import banner_1 from "@/public/banner/1.jpg";
 import banner_2 from "@/public/banner/2.jpg";
 import banner_3 from "@/public/banner/3.jpg";
+import banner_4 from "@/public/banner/4.jpg";
+import banner_5 from "@/public/banner/5.jpg";
 import Image from "next/image";
 import styles from "@/styles/components/home/banner.module.scss";
 import Link from "next/link";
@@ -21,23 +23,37 @@ export default function Banner() {
         showStatus={false} // Remove slide status
       >
         <div className={styles.wrap}>
-          <Link href="https://www.lakos.com/product/tcx-tci-towerclean/" target="_blank">
+          <Link href="" target="_blank">
             <div className={styles.imageWrap}>
               <Image src={banner_1} alt={""} />
             </div>
           </Link>
         </div>
         <div className={styles.wrap}>
-          <Link href="https://www.lakos.com/product/tbx-tbi-sidestreamclean/" target="_blank">
+          <Link href="" target="_blank">
             <div className={styles.imageWrap}>
               <Image src={banner_2} alt={""} />
             </div>
           </Link>
         </div>
         <div className={styles.wrap}>
-          <Link href="https://www.lakos.com/product/lakos-ilb-ils-separators/" target="_blank">
+          <Link href="" target="_blank">
             <div className={styles.imageWrap}>
               <Image src={banner_3} alt={""} />
+            </div>
+          </Link>
+        </div>
+        <div className={styles.wrap}>
+          <Link href="" target="_blank">
+            <div className={styles.imageWrap}>
+              <Image src={banner_4} alt={""} />
+            </div>
+          </Link>
+        </div>
+        <div className={styles.wrap}>
+          <Link href="" target="_blank">
+            <div className={styles.imageWrap}>
+              <Image src={banner_5} alt={""} />
             </div>
           </Link>
         </div>

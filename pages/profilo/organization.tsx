@@ -3,7 +3,7 @@ import Image from "next/image";
 import Layout from "@/components/layout/Layout";
 import Sidebar from "@/components/layout/Sidebar";
 import styles from "@/styles/pages/organization.module.scss";
-import pic from "@/public/award/pic.jpg";
+import pic from "@/public/activity/IMG_5291.jpg";
 import organizationChart from "@/public/organizationChart.jpg";
 
 export default function Organization() {

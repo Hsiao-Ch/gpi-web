@@ -3,7 +3,7 @@ import Image from "next/image";
 import Layout from "@/components/layout/Layout";
 import Sidebar from "@/components/layout/Sidebar";
 import styles from "@/styles/pages/news.module.scss";
-import pic from "@/public/award/pic.jpg";
+import pic from "@/public/activity/IMG_5328.jpg";
 
 export default function News() {
   return (

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { FaYoutube } from "react-icons/fa";
 
 import Layout from "@/components/layout/Layout";
 import SidebarService from "@/components/layout/SidebarService";
@@ -16,9 +15,6 @@ export default function Maintent() {
       <div className={styles.container}>
         <SidebarService />
         <section className={styles.section}>
-          <div className={styles.imgWrap}>
-            <Image src={pic} alt={""} />
-          </div>
           <h1 className={styles.title}>保養維修</h1>
           <div className={styles.content}>
             <div className={styles.itemImage}>

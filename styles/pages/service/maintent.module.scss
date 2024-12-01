@@ -22,29 +22,8 @@
     width: 100%;
     overflow: hidden;
 
-    .imgWrap {
-      height: 250px;
-      overflow: hidden;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      @include Medium {
-        height: 220px;
-      }
-
-      @include Small {
-        height: 150px;
-      }
-
-      img {
-        height: auto;
-        width: 100%;
-      }
-    }
-
     .title {
-      margin: 2rem 0 1rem;
+      margin: 0 0 1rem;
       padding-bottom: 1rem;
       font-weight: 700;
       font-size: 20px;

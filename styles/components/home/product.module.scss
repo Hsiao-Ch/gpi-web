@@ -4,6 +4,7 @@
 
 .container {
   padding: 3rem;
+  background-image: url("../../../public/service/home-service-bg.png");
 
   @include Small {
     padding: 3rem 1rem;
@@ -28,12 +29,13 @@
     }
 
     .itemImage {
+      background-color: #fff;
       height: 200px;
       overflow: hidden;
       position: relative;
       padding: 1rem;
-      border: 1px solid #ccc;
       display: flex;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
       align-items: center;
 
       a {

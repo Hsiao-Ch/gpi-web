@@ -5,7 +5,7 @@
 .section {
   .wrap {
     cursor: pointer;
-    margin: 0 3rem;
+    margin: 0;
 
     @include Small {
       margin: 0 1rem;
