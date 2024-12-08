@@ -7,13 +7,9 @@
     cursor: pointer;
     margin: 0;
 
-    @include Small {
-      margin: 0 1rem;
-    }
-
     .imageWrap {
       width: 100%;
-      height: 500px;
+      height: 90vh;
       display: flex;
       align-items: center;
       margin: auto;
