@@ -12,8 +12,17 @@
       height: 90vh;
       display: flex;
       align-items: center;
+      justify-content: center;
       margin: auto;
 
+      @include Small {
+        height: 450px;
+      }
+
+      @include X-Small {
+        height: 250px;
+      }
+      
       img {
         margin: auto;
         width: 100%;
