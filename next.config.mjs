@@ -2,6 +2,7 @@
 const nextConfig = {
   output: "export", // <=== enables static exports
   reactStrictMode: true,
+  basePath: "/gpi-web",
   distDir: 'dist',
   images: {
     unoptimized: true,
