@@ -3,7 +3,10 @@ import Image from "next/image";
 import Layout from "@/components/layout/Layout";
 import Sidebar from "@/components/layout/Sidebar";
 import styles from "@/styles/pages/environment.module.scss";
-import pic from "@/public/award/pic.jpg";
+import pic from "@/public/subBanner/enviroment.jpg";
+import G from "@/public/logo/G.png";
+import P from "@/public/logo/P.png";
+import I from "@/public/logo/I.png";
 
 export default function Environment() {
   return (
@@ -22,19 +25,31 @@ export default function Environment() {
                 <p className={styles.subTitle}>願景</p>
                 <ul>
                   <li>
-                    <p className={styles.light}>
-                      <span>G</span>資源永續(Green)
-                    </p>
+                    <div className={styles.light}>
+                      <p>
+                        <Image src={G} alt="gpi logo" />
+                        reen
+                      </p>
+                      資源永續
+                    </div>
                   </li>
                   <li>
-                    <p className={styles.light}>
-                      <span>P</span>效益 (Performance)(Green)
-                    </p>
+                    <div className={styles.light}>
+                      <p>
+                        <Image src={P} alt="gpi logo" />
+                        erformance
+                      </p>
+                      效益
+                    </div>
                   </li>
                   <li>
-                    <p className={styles.light}>
-                      <span>i</span>創新 (innovation)
-                    </p>
+                    <div className={styles.light}>
+                      <p>
+                        <Image src={I} alt="gpi logo" />
+                        nnovation
+                      </p>
+                      創新
+                    </div>
                   </li>
                 </ul>
 
@@ -47,43 +62,40 @@ export default function Environment() {
                   </li>
                   <li>
                     <p>
-                      <span>供應商面</span>供應鏈與業務管理
+                      <span>供應商面</span>致力於供應鏈與業務管理 與合作夥伴共創價值
                     </p>
-                    <ul>
-                      <li>與合作夥伴共創價值</li>
-                    </ul>
                   </li>
                   <li>
                     <p>
-                      <span>環境面</span>善用地球資源
+                      <span>環境面</span>善用地球資源 投入效益使資源永續
                     </p>
-                    <ul>
-                      <li>投入效益使資源永續</li>
-                    </ul>
                   </li>
                   <li>
                     <p>
                       <span>社會面</span>永續環境創新服務
+                      提供創新的解決方案、持續改善
                     </p>
-                    <ul>
-                      <li>提供創新的解決方案、持續改善</li>
-                    </ul>
                   </li>
                 </ul>
               </div>
               <div className={styles.item}>
                 <p className={styles.subTitle}>核心價值</p>
                 <ul>
-                  <li>誠正有信</li>
-                  <li>擔當責任</li>
+                  <li>以「信任」為松鴻興業的核心價值</li>
+                  <li>信是相信 任是當責</li>
+                  <li>誠正有信 擔當責任</li>
+                  <li>承擔 正當 有責 信任</li>
                 </ul>
               </div>
             </div>
           </div>
+          {/* ===TODO=== */}
           <div className={styles.wrap}>
             <h2>品質政策</h2>
             <ul className={styles.climateWrap}>
               <li>品質第一，顧客至上。</li>
+              <li>創意生活，喜悅生命。</li>
+              <li>持續改善，資源永續。</li>
             </ul>
           </div>
           <div className={styles.wrap}>

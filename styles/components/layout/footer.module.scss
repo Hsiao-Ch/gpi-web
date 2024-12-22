@@ -3,9 +3,10 @@
 
 .container {
   padding: 5rem 3rem;
-  min-height: calc(100vh - 90px - 10rem);
+  height: calc(100vh - 90px - 10rem);
   background-color: #283618;
   position: relative;
+  max-height: 400px;
 
   @include Small {
     padding: 5rem 1rem;
@@ -32,9 +33,14 @@
   }
 
   .logo {
-    font-size: 50px;
-    color: #fff;
-    line-height: 50px;
+    width: auto;
+    height: 50px;
+    margin-bottom: 1rem;
+
+    img {
+      width: auto;
+      height: 100%;
+    }
   }
 
   h2 {

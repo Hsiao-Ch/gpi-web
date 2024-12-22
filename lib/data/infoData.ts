@@ -6,5 +6,5 @@ export const InfoLinkData = [
 export const ServiceLinkData = [
     {'name': '技術諮詢', 'link': '/service/tech'},
     {'name': '性能測量', 'link': '/service/test'},
-    {'name': '保養維修', 'link': '/service/maintent'},
+    {'name': '保養維修/零件服務', 'link': '/service/maintent'},
 ]

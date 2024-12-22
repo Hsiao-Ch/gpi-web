@@ -2,13 +2,15 @@ import { FaArrowRight, FaFacebook } from "react-icons/fa";
 import { FooterLinkData } from "@/lib/data/footerData";
 import styles from "@/styles/components/layout/footer.module.scss";
 import Link from "next/link";
+import Image from "next/image";
+import logo from "@/public/logo/clearlogo.png";
 
 export default function Footer() {
   return (
     <footer className={styles.container}>
       <div className={styles.footerWrap}>
         <div>
-          <h2 className={styles.logo}>GPi</h2>
+          <div className={styles.logo}><Image src={logo} alt="logo" /></div>
           <p style={{ fontWeight: "bold" }}>
             GREEN PARTNERS INDUSTRY CO., LTD.
           </p>

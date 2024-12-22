@@ -4,7 +4,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import Layout from "@/components/layout/Layout";
 import SidebarInfo from "@/components/layout/SidebarInfo";
 import styles from "@/styles/pages/recruitment.module.scss";
-import pic from "@/public/award/pic.jpg";
+import pic from "@/public/subBanner/join-up.jpg";
 
 const content = [
   {

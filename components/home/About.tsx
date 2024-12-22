@@ -10,7 +10,7 @@ export default function About() {
   return (
     <section className={styles.container}>
       <div className={styles.titleWrap}>
-        <h2 className={styles.title}>關於我們</h2>
+        <h2 className={styles.title}>產品介紹</h2>
       </div>
       <div className={styles.wrap}>
         <div className={styles.itemImage}>

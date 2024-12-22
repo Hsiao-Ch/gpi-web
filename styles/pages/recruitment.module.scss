@@ -18,8 +18,13 @@
     overflow: hidden;
     margin-left: 3rem;
 
+    @include Small {
+      margin-left: 0;
+      width: 100%;
+    }
+
     .imgWrap {
-      height: 250px;
+      // height: auto;
       overflow: hidden;
       display: flex;
       align-items: center;
@@ -34,8 +39,9 @@
       }
 
       img {
-        height: auto;
+        height: 100%;
         width: 100%;
+        object-fit: cover;
       }
     }
 

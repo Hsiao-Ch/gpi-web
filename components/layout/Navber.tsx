@@ -62,7 +62,7 @@ export default function Navbar() {
           <div className={styles.dropdownMenu}>
             <Link href="/service/tech">技術諮詢</Link>
             <Link href="/service/test">性能測量</Link>
-            <Link href="/service/maintent">保養維修</Link>
+            <Link href="/service/maintent">保養維修/零件服務</Link>
           </div>
         </li>
 
@@ -112,7 +112,7 @@ export default function Navbar() {
               <div className={styles.dropdownMenu}>
                 <Link href="/maintenance">技術諮詢</Link>
                 <Link href="/installation">性能測量</Link>
-                <Link href="/installation">保養維修</Link>
+                <Link href="/installation">保養維修/零件服務</Link>
               </div>
             )}
           </li>

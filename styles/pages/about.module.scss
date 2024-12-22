@@ -56,31 +56,19 @@
 
         &:first-child {
           .icon {
-            background-color: #df817a;
-
-            &:hover {
-              background-color: #c1121f;
-            }
+            background-color: red;
           }
         }
 
         &:nth-child(2) {
           .icon {
-            background-color: #669bbc;
-
-            &:hover {
-              background-color: #38608b;
-            }
+            background-color: blue;
           }
         }
 
         &:nth-child(3) {
           .icon {
-            background-color: #a8c686;
-
-            &:hover {
-              background-color: #588157;
-            }
+            background-color: green;
           }
         }
 
@@ -117,13 +105,9 @@
 
   .aboutWrap {
     display: grid;
-    grid-template-columns: 1.2fr 1fr;
+    grid-template-columns: auto auto;
 
     @include Small {
-        grid-template-columns: 2fr 1fr;
-    }
-
-    @include X-Small {
         grid-template-columns: 1fr;
     }
 
@@ -144,7 +128,7 @@
 
     .contentWrap {
       background-color: #283618;
-      padding: 1rem 10rem 2rem 3rem;
+      padding: 1rem 2rem 2rem 3rem;
 
       @include Small {
         padding: 1rem;
@@ -162,16 +146,16 @@
 
     .imageWrap {
       width: 100%;
-      height: 80vh;
+      height: 100%;
       overflow: hidden;
-
-      @include X-Small {
-        display: none;
-      }
+      display: flex;
+      align-items: center;
+      background-color: #283618;
 
       img {
-        width: auto;
-        height: 80vh;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
       }
     }
   }

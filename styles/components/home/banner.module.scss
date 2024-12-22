@@ -3,30 +3,74 @@
 @import "@/styles/base/extends";
 
 .section {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 90px); /* 调整高度 */
+  overflow: hidden; /* 防止背景图超出容器 */
+
+  @include Small {
+    height: 450px;
+  }
+
+  @include X-Small {
+    height: 250px;
+  }
+
+  /* 背景层 */
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover; /* 背景图填满 */
+    background-position: center;
+    filter: blur(5px); /* 虚化背景 */
+    z-index: -1; /* 置于轮播图下面 */
+    transition: background-image 0.3s ease-in-out; /* 平滑切换背景图片 */
+
+    @include Small {
+      height: 450px;
+    }
+
+    @include X-Small {
+      height: 250px;
+    }
+  }
+
   .wrap {
     cursor: pointer;
     margin: 0;
 
     .imageWrap {
+      position: relative;
       width: 100%;
-      height: 90vh;
+      height: calc(100vh - 90px); /* 调整高度 */
       display: flex;
       align-items: center;
       justify-content: center;
-      margin: auto;
+      padding: 0 8rem;
+
+      @include Medium {
+        padding: 0 4rem;
+      }
 
       @include Small {
+        padding: 0;
         height: 450px;
       }
 
       @include X-Small {
         height: 250px;
       }
-      
+
+      /* 图片层 */
       img {
-        margin: auto;
+        object-fit: cover;
         width: 100%;
         height: 100%;
+        position: relative; /* 使图片位于背景图上方 */
+        z-index: 1;
       }
     }
   }
