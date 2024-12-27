@@ -40,11 +40,11 @@ export default function Tech() {
               </Link></p>
               
               <p><Link
-                href={"https://spxcooling.com/water-calculator/"}
+                href={"https://spiroselect.spirotech.com/"}
                 target="_blank"
               >
                 <CiLink />
-                產品選型
+                產品選型工具
               </Link></p>
             </div>
             <iframe
