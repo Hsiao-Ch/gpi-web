@@ -30,55 +30,42 @@
       border-bottom: 1px solid #eaeaea;
     }
 
-    .content {
+    .carouselWrapper {
+      margin-bottom: 2rem;
+    }
+
+    .flexWrapper {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: .5rem;
-
-      .itemImage {
-        height: auto;
-        margin: .5rem 0;
-
-        p {
-          font-size: 18px;
-          line-height: normal;
-          margin-bottom: .5rem;
-          font-weight: 500;
-        }
-
-        img {
-          width: 100%;
-          height: auto;
-        }
+      gap: 1rem; // 統一的圖片間距
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); // 圖片寬度最小為 250px，根據屏幕自動調整
+      grid-template-rows: auto; // 讓每一行的高度根據圖片的大小自動調整
+      justify-items: center; // 垂直居中
+      align-items: center; // 水平居中
+    }
+    
+    .flexItem {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 100%;
+      overflow: hidden;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      
+      img {
+        width: 100%; // 圖片寬度自適應父容器
+        height: auto; // 圖片高度根據寬度自動調整
+        object-fit: cover; // 確保圖片覆蓋整個區域
+        border-radius: 8px;
       }
     }
-
-    .readMore {
-      width: fit-content;
-      border: 1px solid $font-color;
-      border-radius: 5px;
-      padding: 0;
-
-      a {
-        padding: 0.5rem 1rem;
-        display: flex;
-        align-items: center;
-        transition: all 0.3s ease-in-out;
-
-        svg {
-          margin-left: 0.3rem;
-          transition: margin-left 0.3s ease-in-out;
-        }
-
-        &:hover {
-          background-color: $dark-green;
-          color: #fff;
-
-          svg {
-            margin-left: 1rem;
-          }
-        }
+    
+    @media (max-width: 768px) {
+      .flexWrapper {
+        gap: 0.5rem; // 更小螢幕時的圖片間距
       }
     }
+    
   }
 }

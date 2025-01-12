@@ -1,12 +1,12 @@
-import Image from "next/image";
+import Image from 'next/image';
 
-import Layout from "@/components/layout/Layout";
-import Sidebar from "@/components/layout/Sidebar";
-import styles from "@/styles/pages/environment.module.scss";
-import pic from "@/public/subBanner/enviroment.jpg";
-import G from "@/public/logo/G.png";
-import P from "@/public/logo/P.png";
-import I from "@/public/logo/I.png";
+import Layout from '@/components/layout/Layout';
+import Sidebar from '@/components/layout/Sidebar';
+import styles from '@/styles/pages/environment.module.scss';
+import pic from '@/public/subBanner/enviroment.jpg';
+import G from '@/public/logo/G.png';
+import P from '@/public/logo/P.png';
+import I from '@/public/logo/I.png';
 
 export default function Environment() {
   return (
@@ -15,7 +15,7 @@ export default function Environment() {
         <Sidebar />
         <section className={styles.section}>
           <div className={styles.imgWrap}>
-            <Image src={pic} alt={""} />
+            <Image src={pic} alt={''} />
           </div>
           <h1 className={styles.title}>環境、健康與安全政策</h1>
           <div className={styles.wrap}>

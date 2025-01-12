@@ -1,8 +1,8 @@
-import { IoIosArrowDropright } from "react-icons/io";
-import { useRouter } from "next/router";
+import { IoIosArrowDropright } from 'react-icons/io';
+import { useRouter } from 'next/router';
 
-import { InfoLinkData } from "@/lib/data/infoData";
-import styles from "@/styles/components/layout/sidebarInfo.module.scss";
+import { InfoLinkData } from '@/lib/data/infoData';
+import styles from '@/styles/components/layout/sidebarInfo.module.scss';
 
 export default function SidebarInfo() {
   const router = useRouter();
@@ -23,7 +23,7 @@ export default function SidebarInfo() {
           <span>地址:</span>新北市新莊區新北大道4段217號3樓
         </p>
         <p>
-          <span>電話:</span>02-85213289(劉小姐)
+          <span>電話:</span>02-85213289
         </p>
         <p>
           <span>傳真:</span>02-81926810

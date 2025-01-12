@@ -1,32 +1,32 @@
-import Image from "next/image";
-import { IoIosArrowRoundForward } from "react-icons/io";
+import Image from 'next/image';
+import { IoIosArrowRoundForward } from 'react-icons/io';
 
-import Layout from "@/components/layout/Layout";
-import SidebarInfo from "@/components/layout/SidebarInfo";
-import styles from "@/styles/pages/recruitment.module.scss";
-import pic from "@/public/award/pic.jpg";
+import Layout from '@/components/layout/Layout';
+import SidebarInfo from '@/components/layout/SidebarInfo';
+import styles from '@/styles/pages/recruitment.module.scss';
+import pic from '@/public/award/pic.jpg';
 
 const content = [
   {
-    project: [
-      "設備組裝專案⼯程管理",
-      "設備維修案件管理",
-      "專案⼯程溝通協調、施⼯進度控管",
-      "專案施⼯查檢、品質管理",
-      "現場⼯程監⼯、巡檢稽核及安全衛⽣事項",
-      "與業務單位的溝通及案件銜接",
+    'project': [
+      '設備組裝專案⼯程管理',
+      '設備維修案件管理',
+      '專案⼯程溝通協調、施⼯進度控管',
+      '專案施⼯查檢、品質管理',
+      '現場⼯程監⼯、巡檢稽核及安全衛⽣事項',
+      '與業務單位的溝通及案件銜接',
     ],
-    domestic: [
-      "負責進口空調設備銷售及市場開發",
-      "開發客戶、客戶拜訪、⼯程簡報說明",
-      "合約案件簽訂及結案",
-      "客戶情報蒐集",
+    'domestic': [
+      '負責進口空調設備銷售及市場開發',
+      '開發客戶、客戶拜訪、⼯程簡報說明',
+      '合約案件簽訂及結案',
+      '客戶情報蒐集',
     ],
-    reserve: [
-      "負責進口空調設備銷售及市場開發",
-      "開發客戶、客戶拜訪、⼯程簡報說明",
-      "合約案件簽訂及結案",
-      "客戶情報蒐集",
+    'reserve': [
+      '負責進口空調設備銷售及市場開發',
+      '開發客戶、客戶拜訪、⼯程簡報說明',
+      '合約案件簽訂及結案',
+      '客戶情報蒐集',
     ],
   },
 ];
@@ -38,7 +38,7 @@ export default function Recruitment() {
         <SidebarInfo />
         <section className={styles.section}>
           <div className={styles.imgWrap}>
-            <Image src={pic} alt={""} />
+            <Image src={pic} alt={''} />
           </div>
           <h1 className={styles.title}>加入我們</h1>
           <p className={styles.intro}>
@@ -47,7 +47,8 @@ export default function Recruitment() {
             <br />
             <br />
             鴻鵠之志(Great)
-            參與(Partner)理想(idea)我們重視每一位員工，除了有良好工作環境、也提供學習及成長的空間，歡迎優秀的朋友一起加入松鴻興業有限公司的工作行列。
+            參與(Partner)理想(idea)我們重視每一位員工，除了有良好工作環境、
+            也提供學習及成長的空間，歡迎優秀的朋友一起加入松鴻興業有限公司的工作行列。
           </p>
           <div className={styles.wrap}>
             <h2>⼯務專案⼯程師 </h2>
@@ -81,7 +82,7 @@ export default function Recruitment() {
                 了解更多
                 <IoIosArrowRoundForward />
               </a>
-            </p>{" "}
+            </p>{' '}
           </div>
           <div className={styles.wrap}>
             <h2>業務⼈員儲備幹部</h2>
@@ -98,7 +99,7 @@ export default function Recruitment() {
                 了解更多
                 <IoIosArrowRoundForward />
               </a>
-            </p>{" "}
+            </p>{' '}
           </div>
         </section>
       </div>

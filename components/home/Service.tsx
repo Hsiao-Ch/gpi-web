@@ -1,7 +1,7 @@
-import { TbInfoHexagon, TbRulerMeasure } from "react-icons/tb";
-import { GiAutoRepair } from "react-icons/gi";
+import { TbInfoHexagon, TbRulerMeasure } from 'react-icons/tb';
+import { GiAutoRepair } from 'react-icons/gi';
 
-import styles from "@/styles/components/home/service.module.scss";
+import styles from '@/styles/components/home/service.module.scss';
 
 export default function Service() {
   return (

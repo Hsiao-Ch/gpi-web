@@ -1,8 +1,8 @@
-import { IoIosArrowDropright } from "react-icons/io";
-import { useRouter } from "next/router";
+import { IoIosArrowDropright } from 'react-icons/io';
+import { useRouter } from 'next/router';
 
-import { ServiceLinkData } from "@/lib/data/infoData";
-import styles from "@/styles/components/layout/sidebarInfo.module.scss";
+import { ServiceLinkData } from '@/lib/data/infoData';
+import styles from '@/styles/components/layout/sidebarInfo.module.scss';
 
 export default function SidebarService() {
   const router = useRouter();

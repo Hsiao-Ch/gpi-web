@@ -1,17 +1,20 @@
-import { FaArrowRight, FaFacebook } from "react-icons/fa";
-import { FooterLinkData } from "@/lib/data/footerData";
-import styles from "@/styles/components/layout/footer.module.scss";
-import Link from "next/link";
-import Image from "next/image";
-import logo from "@/public/logo/clearlogo.png";
+import { FaArrowRight, FaFacebook } from 'react-icons/fa';
+import { FooterLinkData } from '@/lib/data/footerData';
+import styles from '@/styles/components/layout/footer.module.scss';
+import Link from 'next/link';
+import Image from 'next/image';
+import logo from '@/public/logo/clearlogo.png';
+import { IoIosMail } from 'react-icons/io';
 
 export default function Footer() {
   return (
     <footer className={styles.container}>
       <div className={styles.footerWrap}>
         <div>
-          <div className={styles.logo}><Image src={logo} alt="logo" /></div>
-          <p style={{ fontWeight: "bold" }}>
+          <div className={styles.logo}>
+            <Image src={logo} alt="logo" />
+          </div>
+          <p style={{ 'fontWeight': 'bold' }}>
             GREEN PARTNERS INDUSTRY CO., LTD.
           </p>
           <p>新北市新莊區新北大道4段217號3樓</p>
@@ -33,14 +36,21 @@ export default function Footer() {
         <div>
           <h2>關於我們</h2>
           <p className={styles.aboutContent}>
-            我們主要從事冷氣水塔設備，代理進口空調設備冷卻水塔及水處理設備；
+            我們主要從事代理進口空調設備冷卻水塔及水處理設備；
             包含冷卻水塔、雜質分離器、微氣泡分離器、水處理設備等。
             本公司產品於國內外市場擁有廣大使用群，國內代表性企業皆為長期使用客戶。
           </p>
-          <Link href={""}>閱讀更多</Link>
+          <Link href={'/profilo/about'}>閱讀更多</Link>
         </div>
       </div>
-      <a href={'https://www.facebook.com/Marleycoolingtower/'}><FaFacebook  className={styles.fbIcon} /></a>
+      <div className={styles.icon}>
+        <a href={'https://www.facebook.com/Marleycoolingtower/'}>
+          <FaFacebook className={styles.fbIcon} />
+        </a>
+        <a href={'mailto:gpi@greenpartners.com.tw'}>
+          <IoIosMail className={styles.fbIcon} />
+        </a>
+      </div>
     </footer>
   );
 }

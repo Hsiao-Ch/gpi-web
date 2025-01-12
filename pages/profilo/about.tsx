@@ -1,11 +1,11 @@
-import { FaCheck, FaLocationArrow } from "react-icons/fa";
-import { FaListCheck } from "react-icons/fa6";
-import Image from "next/image";
+import { FaCheck, FaLocationArrow } from 'react-icons/fa';
+import { FaListCheck } from 'react-icons/fa6';
+import Image from 'next/image';
 
-import styles from "@/styles/pages/about.module.scss";
-import Layout from "@/components/layout/Layout";
+import styles from '@/styles/pages/about.module.scss';
+import Layout from '@/components/layout/Layout';
 
-import pic from "@/public/activity/IMG_7811.jpeg";
+import pic from '@/public/activity/IMG_7811.jpeg';
 
 export default function About() {
   return (
@@ -17,10 +17,11 @@ export default function About() {
             <p className={styles.line}></p>
           </div>
           <p className={styles.wordContent}>
-            我們主要從事冷卻水塔設備，代理進口冷卻水塔及水處理設備；
+            我們主要從事代理進口冷卻水塔及水處理設備；
             包含冷卻水塔、雜質分離器、微氣泡分離器、水處理設備等。
             本公司產品於國內外市場擁有廣大使用群，國內代表性企業皆為長期使用客戶。
-            以銷售SPX Marley冷卻水塔及相關水處理產品Spirtech微氣泡處理機、Lakos雜質分離器，從事進出口貿易業務及安裝、設計、諮詢與維修業務。
+            以銷售SPX Marley冷卻水塔及相關水處理產品Spirtech微氣泡處理機、
+            Lakos雜質分離器，從事進出口貿易業務及安裝、設計、諮詢與維修業務。
           </p>
           <div className={styles.wordItems}>
             <div className={styles.item}>
@@ -67,7 +68,7 @@ export default function About() {
             </p>
           </div>
           <div className={styles.imageWrap}>
-            <Image src={pic} alt={""} />
+            <Image src={pic} alt={''} />
           </div>
         </div>
       </div>

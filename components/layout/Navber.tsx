@@ -1,10 +1,10 @@
-import { useState } from "react";
-import styles from "@/styles/components/layout/navbar.module.scss";
-import Logo from "@/public/GPi logo.jpg";
-import Image from "next/image";
-import { IoMdArrowDropdown, IoIosArrowDown } from "react-icons/io";
-import { FooterLinkData } from "@/lib/data/footerData";
-import Link from "next/link";
+import { useState } from 'react';
+import styles from '@/styles/components/layout/navbar.module.scss';
+import Logo from '@/public/GPi logo.jpg';
+import Image from 'next/image';
+import { IoMdArrowDropdown, IoIosArrowDown } from 'react-icons/io';
+import { FooterLinkData } from '@/lib/data/footerData';
+import Link from 'next/link';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,7 +26,7 @@ export default function Navbar() {
 
   const toggleContact = () => {
     setContactIsShow(!contactIsShow);
-  }
+  };
 
   return (
     <nav className={styles.navbar}>
@@ -97,7 +97,7 @@ export default function Navbar() {
           <li className={styles.linkItem}>
             <Link href="/">首頁</Link>
           </li>
-          
+
           <li className={styles.linkItem}>
             <Link href="/products">產品介紹</Link>
           </li>

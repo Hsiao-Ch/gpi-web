@@ -1,12 +1,13 @@
-import Link from "next/link";
-import { IoIosArrowDropright } from "react-icons/io";
+import Link from 'next/link';
+import { IoIosArrowDropright } from 'react-icons/io';
 
-import { FooterLinkData } from "@/lib/data/footerData";
+import { FooterLinkData } from '@/lib/data/footerData';
 import styles from '@/styles/components/layout/sidebar.module.scss';
-import { useRouter } from "next/router";
+import { useRouter } from 'next/router';
 
 export default function Sidebar() {
   const router = useRouter();
+
   return (
     <div className={styles.wrap}>
       <ul className={styles.linkItems}>
