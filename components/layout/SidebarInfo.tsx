@@ -19,16 +19,28 @@ export default function SidebarInfo() {
       </ul>
       <div className={styles.helpWrap}>
         <h2>聯絡我們</h2>
-        <p>
-          <span>地址:</span>新北市新莊區新北大道4段217號3樓
-        </p>
-        <p>
-          <span>電話:</span>02-85213289
-        </p>
-        <p>
-          <span>傳真:</span>02-81926810
-        </p>
+        <table>
+          <tbody>
+            <tr>
+              <th>地址:</th>
+              <td>新北市新莊區新北大道4段217號3樓</td>
+            </tr>
+            <tr>
+              <th>電話:</th>
+              <td>02-85213289</td>
+            </tr>
+            <tr>
+              <th>傳真:</th>
+              <td>02-81926810</td>
+            </tr>
+            <tr>
+              <th>郵件:</th>
+              <td><a href="mailto:gpi@greenpartners.com.tw">gpi@greenpartners.com.tw</a></td>
+            </tr>
+          </tbody>
+        </table>
       </div>
+
     </div>
   );
 }

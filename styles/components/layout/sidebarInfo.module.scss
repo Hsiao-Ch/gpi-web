@@ -57,13 +57,16 @@
             line-height: normal;
         }
         
-        p {
-            margin-bottom: .5rem;
-            letter-spacing: 2px;
+        table {
+            th, td {
+                line-height: 25px;
+                letter-spacing: 1px;
+                font-weight: normal;
+            }
 
-            span {
-                font-weight: 700;
-                margin-right: .5rem;
+            th {
+                width: 50px;
+                text-align: left;
             }
         }
     }

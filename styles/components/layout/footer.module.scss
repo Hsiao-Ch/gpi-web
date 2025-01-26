@@ -74,18 +74,13 @@
       margin-right: 10px;
     }
 
-    a {
+    p {
       width: 100%;
+    }
+    a {
+      width: fit-content;
       display: flex;
       align-items: center;
-
-      @include Small {
-        width: 100%;
-      }
-
-      @include X-Small {
-        width: 50%;
-      }
 
       svg {
         margin-right: 0.5rem;
@@ -100,8 +95,7 @@
 }
 
 .icon {
-  position: absolute;
-  bottom: 3rem;
+  margin-top: 1rem;
 }
 
 .fbIcon {

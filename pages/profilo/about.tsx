@@ -20,7 +20,7 @@ export default function About() {
             我們主要從事代理進口冷卻水塔及水處理設備；
             包含冷卻水塔、雜質分離器、微氣泡分離器、水處理設備等。
             本公司產品於國內外市場擁有廣大使用群，國內代表性企業皆為長期使用客戶。
-            以銷售SPX Marley冷卻水塔及相關水處理產品Spirtech微氣泡處理機、
+            以銷售SPX Marley冷卻水塔及相關水處理產品Spirotech微氣泡處理機、
             Lakos雜質分離器，從事進出口貿易業務及安裝、設計、諮詢與維修業務。
           </p>
           <div className={styles.wordItems}>
@@ -58,7 +58,6 @@ export default function About() {
           <div className={styles.contentWrap}>
             <div className={styles.titleWrap}>
               <h2 className={styles.title}>關於松鴻興業</h2>
-              <p className={styles.line}></p>
             </div>
             <p className={styles.subTitle}>冷卻水塔領航者</p>
             <p>

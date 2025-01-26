@@ -35,7 +35,7 @@ export default function Contact() {
             'from_name': data.name,
             'to_name': '松鴻興業股份有限公司',
             'from_email': data.email,
-            'to_email': '11336006@ntub.edu.tw',
+            'to_email': 'gpi@greenpartners.com.tw',
             'message': data.message,
             'tel': data.tel
           },
@@ -90,7 +90,7 @@ export default function Contact() {
           <p className={styles.inputItem}>
             <textarea
               placeholder={`${
-                errors.message ? '*' + errors.message.message : '您的您的留言'
+                errors.message ? '*' + errors.message.message : '您的留言'
               }`}
               {...register('message', { 'required': '請輸入您的留言' })}
             />

@@ -14,7 +14,7 @@ import spirotop_brass from '@/public/products/spirotech/spirotop_brass.jpg';
 import SpiroVent_Steel_F from '@/public/products/spirotech/SpiroVent -Steel -F(PN16).jpg';
 import SpiroVent_Superior from '@/public/products/spirotech/SpiroVent Superior S600 - 2,5-6 bar.jpg';
 import SpiroExpand_EVSG from '@/public/products/spirotech/SpiroExpand EVSG Pressure expansion vessel with replaceable membrane.jpg';
-import SpiroExpand_MultiControl from '@/public/products/spirotech/SpiroExpand MultiControl Kompakt DUO Twin.jpg';
+import spirotrap from '@/public/products/spirotech/spirotrap-雜質處理器.jpg';
 import Walraven_1 from '@/public/products/walraven/成品及抗震支架.jpg';
 import Walraven_2 from '@/public/products/walraven/建築安裝解決方案.jpg';
 
@@ -85,7 +85,7 @@ export const productsData: ProductsType[] = [
       },
       // ====TODO====
       {
-        'image': SpiroExpand_MultiControl,
+        'image': spirotrap,
         'alt': 'Spiro Trap 雜質分離器',
         'link': 'https://www.spirotech.com/products/spiroexpand-pressurization/spiroexpand-multicontrol-kompakt-duo-twin-193',
       },

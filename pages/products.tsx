@@ -102,7 +102,7 @@ export default function Products() {
             onClick={() => handleClick('SPIRPTECH')}
             className={page == 'SPIRPTECH' ? styles.active : ''}
           >
-            Spirptech<span>({spirptechLength})</span>
+            Spirotech<span>({spirptechLength})</span>
           </button>
           <button
             onClick={() => handleClick('LAKOS')}

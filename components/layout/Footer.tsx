@@ -20,16 +20,27 @@ export default function Footer() {
           <p>新北市新莊區新北大道4段217號3樓</p>
           <p>電話: 02-85213289</p>
           <p>傳真: 02-81926810</p>
-          <p></p>
+          <p>電子郵件: <a href={'mailto:gpi@greenpartners.com.tw'}>gpi@greenpartners.com.tw</a></p>
+
+          <div className={styles.icon}>
+            <a href={'https://www.facebook.com/Marleycoolingtower/'}>
+              <FaFacebook className={styles.fbIcon} />
+            </a>
+            <a href={'mailto:gpi@greenpartners.com.tw'}>
+              <IoIosMail className={styles.fbIcon} />
+            </a>
+          </div>
         </div>
         <div>
           <h2>相關連結</h2>
           <div className={styles.links}>
             {FooterLinkData.map((item, index) => (
-              <Link key={index} href={item.link}>
-                <FaArrowRight />
-                {item.name}
-              </Link>
+              <p key={index} >
+                <Link href={item.link}>
+                  <FaArrowRight />
+                  {item.name}
+                </Link>
+              </p>
             ))}
           </div>
         </div>
@@ -42,14 +53,6 @@ export default function Footer() {
           </p>
           <Link href={'/profilo/about'}>閱讀更多</Link>
         </div>
-      </div>
-      <div className={styles.icon}>
-        <a href={'https://www.facebook.com/Marleycoolingtower/'}>
-          <FaFacebook className={styles.fbIcon} />
-        </a>
-        <a href={'mailto:gpi@greenpartners.com.tw'}>
-          <IoIosMail className={styles.fbIcon} />
-        </a>
       </div>
     </footer>
   );
