@@ -29,7 +29,7 @@ export const productsData: ProductsType[] = [
       {
         'image': MD,
         'alt': 'MD 逆流模組型冷卻水塔',
-        'link': 'https://www.lakos.com/product/lakos-ilb-ils-separators/', //=====TOD
+        'link': 'https://spxcooling.com/cooling-towers/marley-md/',
       },
       {
         'image': MHF,
