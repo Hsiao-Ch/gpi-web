@@ -87,7 +87,7 @@ export const productsData: ProductsType[] = [
       {
         'image': spirotrap,
         'alt': 'Spiro Trap 雜質分離器',
-        'link': 'https://www.spirotech.com/products/spiroexpand-pressurization/spiroexpand-multicontrol-kompakt-duo-twin-193',
+        'link': 'https://www.spirotech.com/products/spirotrap/',
       },
     ],
     'lakos': [
