@@ -45,11 +45,11 @@ export default function Tech() {
               </Link></p>
 
               <p><Link
-                href={'https://www.spirotech.com/pressurization'}
+                href={'https://spiroselect.spirotech.com/home/pressurization'}
                 target="_blank"
               >
                 <CiLink />
-                Spirotech 膨脹水箱造型
+                Spirotech 膨脹水箱選型
               </Link></p>
             </div>
             <iframe

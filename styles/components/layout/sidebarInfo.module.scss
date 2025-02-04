@@ -58,14 +58,18 @@
         }
         
         table {
-            th, td {
+            th, td, a {
                 line-height: 25px;
                 letter-spacing: 1px;
                 font-weight: normal;
             }
 
+            td {
+                word-break: break-all;
+            }
+
             th {
-                width: 50px;
+                width: 45px;
                 text-align: left;
             }
         }
