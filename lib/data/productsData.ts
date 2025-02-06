@@ -39,7 +39,7 @@ export const productsData: ProductsType[] = [
       {
         'image': F400,
         'alt': 'F400 工業型冷卻水塔',
-        'link': 'https://spxcooling.com/library/class-f400-counterflow-cooling-tower-specifications/',
+        'link': 'https://spxcooling.com/cooling-towers/marley-400-800md-unilite/',
       },
       {
         'image': MCW,
@@ -58,7 +58,7 @@ export const productsData: ProductsType[] = [
       },
       {
         'image': AV,
-        'alt': 'AV 單面進風職交流冷卻水塔',
+        'alt': 'AV 單面進風直交流冷卻水塔',
         'link': 'https://spxcooling.com/cooling-towers/marley-av/',
       },
     ],
@@ -75,7 +75,7 @@ export const productsData: ProductsType[] = [
       },
       {
         'image': SpiroVent_Superior,
-        'alt': 'SpiroVent Superior 微氣泡處理器(全真空脫氣機)',
+        'alt': 'SpiroVent Superior 微氣泡處理機(全真空脫氣機)',
         'link': 'https://www.spirotech.com/products/spirovent-superior/spirovent-superior-s600---2,5-6-bar-164',
       },
       {
