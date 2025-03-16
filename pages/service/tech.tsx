@@ -70,7 +70,7 @@ export default function Tech() {
                 </div>
                 <p>
                   <a
-                    href="https://www.youtube.com/@spxcoolingtech"
+                    href="https://www.youtube.com/@spxcoolingtech/videos"
                     target="_blank"
                   >
                     了解更多
