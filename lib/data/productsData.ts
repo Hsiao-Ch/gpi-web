@@ -3,11 +3,10 @@ import TCX_TCI from '@/public/products/lakos/TCX_TCI.jpg';
 import TBX_TBI from '@/public/products/lakos/TBX_TBI.png';
 import ILB_ILS from '@/public/products/lakos/ILB_ILS.png';
 import F400 from '@/public/products/spx/F400 工業型冷卻水塔.jpg';
-import MCW from '@/public/products/spx/MCW 強吹式逆流模組型冷卻水塔.jpg';
 import MHF from '@/public/products/spx/MHF 密閉式冷卻水塔.jpg';
 import MD from '@/public/products/spx/MD 逆流模組型冷卻水塔.jpg';
 import NC from '@/public/products/spx/NC 直交流模組型冷卻水塔.jpg';
-import AV from '@/public/products/spx/AV單面進風職交流冷卻水塔.jpg';
+import AV from '@/public/products/spx/AV 單面進風直交流冷卻水塔.jpg';
 import Clearsky from '@/public/products/spx/Clearsky.jpg';
 import Everest from '@/public/products/spx/everest.jpg';
 import spirotop_brass from '@/public/products/spirotech/spirotop_brass.jpg';
@@ -40,11 +39,6 @@ export const productsData: ProductsType[] = [
         'image': F400,
         'alt': 'F400 工業型冷卻水塔',
         'link': 'https://spxcooling.com/cooling-towers/marley-400-800md-unilite/',
-      },
-      {
-        'image': MCW,
-        'alt': 'MCW 強吹式逆流模組型冷卻水塔',
-        'link': 'https://spxcooling.com/cooling-towers/marley-mcw/',
       },
       {
         'image': Clearsky,
